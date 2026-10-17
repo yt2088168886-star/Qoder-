@@ -8,7 +8,7 @@
   "branch": "main",
   "status": "first_push_completed_readback_verified",
   "never_pushed": false,
-  "last_verified_commit": "d2f368f223a855dbde896df17ba882888e6f2342",
+  "last_verified_commit": "0d124300846460f0770d75d09665e5356eb1deba",
   "first_push_commit": "58f0e7a0a3f0d3a6b10d9d1bb3caafd2a8c8d9bf",
   "commit_note": "同步链：58f0e7a 首推（远端 24 blob）→ 8633ef8 补 sync-state（25 blob）→ 2cf60cf 状态与索引更新 → d2f368f 记录本链。本文件记录的远端头为 d2f368f；由于自引用，推送本文件后远端头会再前进一个提交，远端那份 sync-state.json 因而记录其上一个头。核验时以 git ls-remote 的实际头为准。d2f368f 之前的版本把 commit_note 写成相邻字符串拼接，属非法 JSON，远端当时无法解析，现已修正。",
   "pushed_at": "2026-10-17 19:18 首次 / 19:28 跟进（Asia/Shanghai）",

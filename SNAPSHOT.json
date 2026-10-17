@@ -1,11 +1,11 @@
 {
  "snapshot": ".sync/20261017",
  "source_manifest": "memory/remote_push_manifest.json",
- "source_manifest_sha256": "b36549ce6c7b318db49dcc505580c601bb4bef7e3a9bfe1e34e4bb558ff7ec52",
+ "source_manifest_sha256": "952bd553ef2efb46f0692ea7c6ac8a18c939a121d8f2239a005ac229bddd77ca",
  "repository": "yt2088168886-star/Qoder-",
  "branch": "main",
  "file_count": 24,
- "total_bytes": 96594,
+ "total_bytes": 97777,
  "excluded_after_manifest": [],
  "missing_after_manifest": [],
  "files": [
@@ -46,8 +46,8 @@
   },
   {
    "path": "memory/logs/2026-10-17_GitHub授权与档案补建.md",
-   "bytes": 6547,
-   "sha256": "fe82c4006cc0ffde7d9eed175376e6ad38df77166eed2f85d803fc076d1d69c4"
+   "bytes": 7730,
+   "sha256": "781437bca262cd8bcadfbae3c810833c63606afb3aa3439979987628bd092bf8"
   },
   {
    "path": "memory/logs/2026-10-17_V24几何核验与新路线建模准备.md",
@@ -57,7 +57,7 @@
   {
    "path": "memory/sync-state.json",
    "bytes": 3752,
-   "sha256": "9445dc8339716fe57340d77659bda8470771e8e30781fa887884ccb56cf970bb"
+   "sha256": "2675a869a7e1c58ca72ab838a59f9b2ffcf2e81c0c3dab225fad4578ef783bf3"
   },
   {
    "path": "work/build_remote_manifest.py",
