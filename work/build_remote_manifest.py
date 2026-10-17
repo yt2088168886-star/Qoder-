@@ -69,6 +69,12 @@ for p in files:
     hits = SECRET_RE.findall(text)
     if hits:
         flags.append("SECRET-LIKE in " + rel)
+    if rel.lower().endswith(".json"):
+        try:
+            json.loads(text.lstrip("\ufeff"))
+        except ValueError as exc:
+            flags.append("INVALID JSON skipped: %s (%s)" % (rel, exc))
+            continue
     if size > MAX_BYTES:
         flags.append("too large skipped: %s (%d B)" % (rel, size))
         continue
