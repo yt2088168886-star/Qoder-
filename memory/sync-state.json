@@ -1,0 +1,56 @@
+{
+  "updated_date": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "owner_side": "Qoder",
+  "local_directory": "E:/Qoder_RF11_Sim",
+  "repository": "yt2088168886-star/Qoder-",
+  "remote_url": "https://github.com/yt2088168886-star/Qoder-.git",
+  "branch": "main",
+  "status": "first_push_completed_readback_verified",
+  "never_pushed": false,
+  "last_verified_commit": "58f0e7a0a3f0d3a6b10d9d1bb3caafd2a8c8d9bf",
+  "pushed_at": "2026-10-17 19:18 (Asia/Shanghai)",
+  "push_channel": "本会话本地 git 2.52 + Git Credential Manager 2.6.1（用户选择'不改 private 直接推'，覆盖此前'先改 private 再推'）",
+  "remote_blob_count": 24,
+  "remote_visibility_after_push": "public（用户已知并选择）",
+  "normalization_note": "个别本地 CRLF 文件在远端为 LF，blob 哈希等于本地内容换行规范化后的哈希；文本一致，逐字节比较需先规范化。",
+  "local_prepared_commit": "58f0e7a",
+  "prepared_snapshot_directory": "E:/Qoder_RF11_Sim/.sync/20261017",
+  "prepared_file_count": 24,
+  "prepared_total_bytes": 88398,
+  "push_manifest": "memory/remote_push_manifest.json",
+  "connector": {
+    "serverId": "a3b7142f-8fad-40e9-8f9a-bff6c37acbca",
+    "status": "ready",
+    "tools_visible_to_this_session": false,
+    "note": "授权已成功（45 个工具可枚举），但会话启动时该服务器仍是 needs-auth，工具未接入本会话；retry 与 disable/enable 无效。新开一个会话即可直接调用。"
+  },
+  "remote_state_verified_anonymously": {
+    "private": false,
+    "size": 0,
+    "default_branch": "main",
+    "contents": "This repository is empty.",
+    "created_at": "2026-10-17T10:41:47Z",
+    "checked_at": "2026-10-17 19:1x (Asia/Shanghai)"
+  },
+  "gates_before_push": [
+    "仓库转 private —— 用户 19:18 前明确取消该前提（'不改 private 你直接推'），实际以 public 推送",
+    "推送通道 —— 连接器工具在本会话不可调用，改用本地 git + GCM 完成"
+  ],
+  "upload_scope": "记忆文档、日期日志、方法与规格说明、分析脚本、小型索引",
+  "excluded": [
+    "原始 GDS", "HFSS 工程与结果缓存", "实测原始数据", "论文 Word 全文",
+    "顶点级图形/网表 JSON", "Codex 记忆快照", "作者姓名与邮箱等个人标识",
+    "设备账号与令牌", "并发会话 19:00 后写入的 HFSS 试跑文件"
+  ],
+  "concurrency": {
+    "detected": true,
+    "note": "另一会话正写入 E:/Qoder_RF11_Sim/work/hfss_al_sio2（smoke_api_test.py、run_aedt_task.ps1、v24_geometry_qa.*、logs/smoke19_*）；推送改用带时间戳快照，不从工作区直接取文件。"
+  },
+  "artifact_checks": {
+    "v24_review_gds_sha256": "d5d2a4daff0d6608f3ddb23c61d13621e2a1f7cabe900989d072a7c05bdf6b51",
+    "legacy_thesis_docx_sha256": "f45af7cd2d490a47d5c088e3b1c5f7cb1b22cea192bbf22d18002522201a5b83"
+  },
+  "previous_sync": null,
+  "codex_side_sync_reference_readonly": "D:/Codex_RF11_Project/memory/sync-state.json（另一仓库 yt2088168886-star/-，与本档案分开维护，不重复写入）"
+}

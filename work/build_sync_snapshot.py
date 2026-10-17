@@ -15,9 +15,10 @@ DEST = os.path.join(ROOT, ".sync", STAMP)
 with open(MANIFEST, encoding="utf-8") as fh:
     manifest = json.load(fh)
 
-if os.path.isdir(DEST):
+if os.path.isdir(DEST) and not os.path.isdir(os.path.join(DEST, ".git")):
     shutil.rmtree(DEST)
 os.makedirs(DEST, exist_ok=True)
+# 已含 .git 时不清空目录：保留本地提交历史，只覆盖同名内容文件
 
 copied, mismatched, missing = [], [], []
 for entry in manifest["files"]:

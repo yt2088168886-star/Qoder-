@@ -20,8 +20,8 @@
   "推送通道可用（GitHub 连接器工具或本地 git + GCM）"
  ],
  "concurrency_note": "2026-10-17 19:00 起另一会话在同一 E 工作区写入 HFSS 试跑文件（smoke_api_test.py、run_aedt_task.ps1、v24_geometry_qa.*、logs/smoke19_*），属进行中的他方工作，已从本推送清单排除。",
- "file_count": 22,
- "total_bytes": 83823,
+ "file_count": 23,
+ "total_bytes": 88533,
  "files": [
   {
    "path": "AGENTS.md",
@@ -60,13 +60,18 @@
   },
   {
    "path": "memory/logs/2026-10-17_GitHub授权与档案补建.md",
-   "bytes": 5048,
-   "sha256": "d4d50d4337224d4771c2e35ec5fdab5652896669e10e4d200ee9cecaccc7ce72"
+   "bytes": 6547,
+   "sha256": "fe82c4006cc0ffde7d9eed175376e6ad38df77166eed2f85d803fc076d1d69c4"
   },
   {
    "path": "memory/logs/2026-10-17_V24几何核验与新路线建模准备.md",
    "bytes": 11640,
    "sha256": "8aecd039c3a1558655f328ca92c396ced83cbe5fa354d40219ffd0f1f4d992ab"
+  },
+  {
+   "path": "memory/sync-state.json",
+   "bytes": 3071,
+   "sha256": "321e8f883f0148281f7bbb91b03e7581c71e39a68e92cddb67ba64b5b1a75134"
   },
   {
    "path": "work/build_remote_manifest.py",
@@ -75,8 +80,8 @@
   },
   {
    "path": "work/build_sync_snapshot.py",
-   "bytes": 2567,
-   "sha256": "8bbfa903d6723bdd815062b547093e691c2e48bbe9c845708a9586eb85f71c8f"
+   "bytes": 2707,
+   "sha256": "6167f10ca848ac71ec9a06f96b6ef857b24503b42e83666f2a88c0560e27729e"
   },
   {
    "path": "work/hfss_al_sio2/v24_dev1_extract.py",
