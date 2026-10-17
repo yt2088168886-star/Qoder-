@@ -8,9 +8,11 @@
   "branch": "main",
   "status": "first_push_completed_readback_verified",
   "never_pushed": false,
-  "last_verified_commit": "8633ef8c97ceaa234b5c175038932627c244c2ff",
+  "last_verified_commit": "2cf60cf334f06ad2ba14d84a7af4162c901b7bc3",
   "first_push_commit": "58f0e7a0a3f0d3a6b10d9d1bb3caafd2a8c8d9bf",
-  "commit_note": "远端 main 头为 8633ef8（跟进提交）。远端那份 sync-state.json 记录的头是 58f0e7a，本文件把最终值写为 8633ef8，两者相差一个提交属自引用正常现象。",
+  "commit_note": "同步链：58f0e7a 首推（远端 24 blob）→ 8633ef8 补 sync-state（25 blob）→ 2cf60cf 状态与索引更新。"
+                 "本文件记录的远端头为 2cf60cf；由于自引用，推送本文件后远端头会再前进一个提交，"
+                 "远端那份 sync-state.json 因而记录其上一个头。核验时以 git ls-remote 的实际头为准。",
   "pushed_at": "2026-10-17 19:18 首次 / 19:28 跟进（Asia/Shanghai）",
   "push_channel": "本会话本地 git 2.52 + Git Credential Manager 2.6.1（用户选择'不改 private 直接推'，覆盖此前'先改 private 再推'）",
   "remote_blob_count": 25,
