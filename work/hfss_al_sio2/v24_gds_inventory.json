@@ -1,0 +1,105 @@
+{
+  "files": [
+    {
+      "file": "ASML_100D_OCTAGON_4L_STACKED_EXTERNAL_BAR_ONLY_REVIEW_V24.gds",
+      "unit": 1e-06,
+      "precision": 1e-09,
+      "units_per_db_unit": 999.9999999999999,
+      "cells": [
+        {
+          "name": "OCTAGON_4L_STACKED_EXTERNAL_BAR_ONLY_V24",
+          "polygons": 200,
+          "paths": 0,
+          "labels": 1,
+          "references": 0,
+          "layers": {
+            "1/0": {
+              "count": 80,
+              "areas_db2": 19822722.338077996,
+              "vertices": 2548
+            },
+            "2/0": {
+              "count": 28,
+              "areas_db2": 2763890.40045,
+              "vertices": 1048
+            },
+            "3/0": {
+              "count": 28,
+              "areas_db2": 109910937.2366,
+              "vertices": 824
+            },
+            "4/0": {
+              "count": 28,
+              "areas_db2": 83751600.0,
+              "vertices": 120
+            },
+            "90/0": {
+              "count": 4,
+              "areas_db2": 3596400.0,
+              "vertices": 16
+            },
+            "91/0": {
+              "count": 16,
+              "areas_db2": 4473600.0,
+              "vertices": 64
+            },
+            "92/0": {
+              "count": 16,
+              "areas_db2": 9696.0,
+              "vertices": 64
+            }
+          },
+          "bbox": [
+            -15000.0,
+            -15000.0,
+            15000.0,
+            15000.0
+          ],
+          "bbox_size_db_units": [
+            30000.0,
+            30000.0
+          ]
+        }
+      ],
+      "top_level": [
+        "OCTAGON_4L_STACKED_EXTERNAL_BAR_ONLY_V24"
+      ]
+    },
+    {
+      "file": "ASML_100D_OCTAGON_4IN1_7P2_TONE_D_CLEAR_FEATURES_L1_V24.gds",
+      "unit": 1e-06,
+      "precision": 1e-09,
+      "units_per_db_unit": 999.9999999999999,
+      "cells": [
+        {
+          "name": "OCTAGON_4IN1_7P2_TONE_D_CLEAR_FEATURES_V24",
+          "polygons": 164,
+          "paths": 0,
+          "labels": 0,
+          "references": 0,
+          "layers": {
+            "1/0": {
+              "count": 164,
+              "areas_db2": 216249149.97512802,
+              "vertices": 4540
+            }
+          },
+          "bbox": [
+            -33600.0,
+            -33600.0,
+            33600.0,
+            33600.0
+          ],
+          "bbox_size_db_units": [
+            67200.0,
+            67200.0
+          ]
+        }
+      ],
+      "top_level": [
+        "OCTAGON_4IN1_7P2_TONE_D_CLEAR_FEATURES_V24"
+      ]
+    }
+  ],
+  "gdstk_version": "1.0.1"
+}

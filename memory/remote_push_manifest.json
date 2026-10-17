@@ -1,0 +1,138 @@
+{
+ "generated_at": "2026-10-17",
+ "timezone": "Asia/Shanghai",
+ "repository": "yt2088168886-star/Qoder-",
+ "remote_url": "https://github.com/yt2088168886-star/Qoder-.git",
+ "branch": "main",
+ "upload_scope": "Qoder 侧记忆文档、日期日志、方法与规格说明、分析脚本、小型索引",
+ "excluded": [
+  "原始 GDS",
+  "HFSS 工程与结果缓存",
+  "实测原始数据",
+  "论文 Word 全文",
+  "顶点级图形/网表 JSON",
+  "Codex 记忆快照",
+  "作者姓名等个人标识",
+  "设备账号与令牌"
+ ],
+ "preconditions": [
+  "仓库须为 private（用户 2026-10-17 决定）",
+  "推送通道可用（GitHub 连接器工具或本地 git + GCM）"
+ ],
+ "concurrency_note": "2026-10-17 19:00 起另一会话在同一 E 工作区写入 HFSS 试跑文件（smoke_api_test.py、run_aedt_task.ps1、v24_geometry_qa.*、logs/smoke19_*），属进行中的他方工作，已从本推送清单排除。",
+ "file_count": 22,
+ "total_bytes": 83823,
+ "files": [
+  {
+   "path": "AGENTS.md",
+   "bytes": 2712,
+   "sha256": "31f7e75ff47fe1af361432021920ba3f83ef736025aab847388aefa45a0200ea"
+  },
+  {
+   "path": "README.md",
+   "bytes": 1722,
+   "sha256": "3a0f128980c8fe86e01061644577ef2ebb13213865aa8711dbe274fc3f0ec970"
+  },
+  {
+   "path": "memory/ARTIFACTS.md",
+   "bytes": 3226,
+   "sha256": "893a6f46a0247f8db8c9f99096e93e9354663f8c75c22b5a98162b0d311fb709"
+  },
+  {
+   "path": "memory/CURRENT_STATE.md",
+   "bytes": 3821,
+   "sha256": "447ea4b89838961be1426053e3d10582d5e9ca575f22b8026801b1191c27775a"
+  },
+  {
+   "path": "memory/DECISIONS.md",
+   "bytes": 1846,
+   "sha256": "290eea4bc871fa8e88a5b4804c791dd6b12ec6f51fc4d5db23bd10323d1abff6"
+  },
+  {
+   "path": "memory/OPEN_QUESTIONS.md",
+   "bytes": 2542,
+   "sha256": "c97c15cd6396c0273026e5568ab5e20c848e0995474d40bbad039c95f7fbe428"
+  },
+  {
+   "path": "memory/README.md",
+   "bytes": 926,
+   "sha256": "ad82483ab69bacbf3a9e4e693788a1c61048cc8fcd38b649229725c6ccb963d3"
+  },
+  {
+   "path": "memory/logs/2026-10-17_GitHub授权与档案补建.md",
+   "bytes": 5048,
+   "sha256": "d4d50d4337224d4771c2e35ec5fdab5652896669e10e4d200ee9cecaccc7ce72"
+  },
+  {
+   "path": "memory/logs/2026-10-17_V24几何核验与新路线建模准备.md",
+   "bytes": 11640,
+   "sha256": "8aecd039c3a1558655f328ca92c396ced83cbe5fa354d40219ffd0f1f4d992ab"
+  },
+  {
+   "path": "work/build_remote_manifest.py",
+   "bytes": 4331,
+   "sha256": "bffaed78bc7bc1bf68c3d82fbe1de1004ff9ae668c2ed6da3e89d2700f7bb4b4"
+  },
+  {
+   "path": "work/build_sync_snapshot.py",
+   "bytes": 2567,
+   "sha256": "8bbfa903d6723bdd815062b547093e691c2e48bbe9c845708a9586eb85f71c8f"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_dev1_extract.py",
+   "bytes": 5428,
+   "sha256": "3c9c3042264dc1df4ff013732ef688e7a29b51d7e4948d5015bf8662e285a1ba"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_device_assignment_full.py",
+   "bytes": 4203,
+   "sha256": "e503e7b2d2977900dc0084f0015e77824cf959b501942337d22173e0a96b6ed3"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_device_functional_sets.py",
+   "bytes": 3639,
+   "sha256": "6c6ec60ab483007fb1497a5e3926788e9bb69c8ad4564143807aee232bd6fa0c"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_device_split.py",
+   "bytes": 4543,
+   "sha256": "7c1f5b80e919e51fbbae2cc6b50008ce55258c355165e754024e30fc5b5f83f8"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_gds_inventory.json",
+   "bytes": 2651,
+   "sha256": "9e7dccf7aeb70277b63f8a5e4bd93e6253a32a7c6e1b10ca714a842c66d91c7e"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_gds_inventory.py",
+   "bytes": 3058,
+   "sha256": "26dbaa824f3273b36819cd31f6e47854094f8d9c97fe2040dd8105ea1ceb093c"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_layer_analysis.py",
+   "bytes": 2795,
+   "sha256": "6cba48fc21464b90763075bcaed407def4d4054bfbc280cb4bff216ed980f4fb"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_layer_assignment.py",
+   "bytes": 4204,
+   "sha256": "7bdda61236b6e62bb22b767e6eca08d25dcca9fa3a7c433038240d671c69a85d"
+  },
+  {
+   "path": "work/hfss_al_sio2/v24_structure_by_device.py",
+   "bytes": 4153,
+   "sha256": "9659bfd15ca9cbf94b00863f834bd812fc29d9db2866071625bd9f88135f6230"
+  },
+  {
+   "path": "work/hfss_al_sio2/仿真输入规格_20261017.md",
+   "bytes": 7493,
+   "sha256": "07620f2e7779eae595ae1b835ddc9662dd439f3e40c27f3a372b91c788ec5782"
+  },
+  {
+   "path": "work/sysinfo/get_memory_state.ps1",
+   "bytes": 1275,
+   "sha256": "dd5263ece200d1f5397bb78211dac9631d0bf215811972f80b6a51f1c2fa2287"
+  }
+ ],
+ "self_check_flags": []
+}
