@@ -30,8 +30,9 @@
 
 - **档案缺口已补**：上一段会话的日志声称已创建 `E:/Qoder_RF11_Sim/AGENTS.md` 与 memory 四件套，
   实际磁盘上只有 `memory/README.md` 与一份日志；本轮已按核验事实重建（本文件即其一）。
-- **上一段会话末尾中断原因已查明**：其工作目录 `C:\Users\yt153\Documents\Qoder\2026-10-17\35334b10`
-  已不存在，最后两条"先把 GitHub 干好"的指令返回 `CHAT_SESSION_WORKSPACE_UNAVAILABLE`。
+- **上一段会话末尾中断原因已查明**：其工作目录 `C:\Users\<用户名>\Documents\Qoder\2026-10-17\35334b10`
+  已不存在（Windows 用户名在远端公开档案里已作脱敏处理），最后两条"先把 GitHub 干好"的指令返回
+  `CHAT_SESSION_WORKSPACE_UNAVAILABLE`。
   因此 **Qoder 侧此前从未向 GitHub 推送过任何内容**。
 - **待复核的关键前提**：上轮日志称"四个子器件相对坐标逐位相同 → 四合一为同一设计的四份复制"。
   本轮按几何中心做最近器件分配后，逐器件逐层图形数为 L1 = 18/22/22/18、L2 = 5/9/5/9、
