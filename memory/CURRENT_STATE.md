@@ -43,12 +43,30 @@
 ## 尚未做
 
 - 未启动 HFSS，未建新工程，没有任何新电磁结果。
-- 未向 GitHub 推送（连接器 status=`needs-auth`；仓库 `Qoder-` 仍是 public，用户要求先转 private）。
 - 未修改 D 盘任何文件；未改系统 Python 或软件安装。
+
+## GitHub 同步状态（2026-10-17 19:18 与 19:28 完成）
+
+Qoder 侧档案**已首次推送**到 `https://github.com/yt2088168886-star/Qoder-`（分支 `main`）：
+首次提交 `58f0e7a0…`，跟进提交 `8633ef8c…`，远端回读 **25 个 blob**，含记忆四件套、两份日期日志、
+V24 分析脚本、仿真输入规格、`remote_push_manifest.json` 与 `sync-state.json`。
+推送通道是本会话的本地 git + GCM（连接器工具在本会话仍不可调用）。
+仓库按用户指示**保持 public**；这意味着研究进度、V24 图形计数与 Via/包围尺寸、候选层叠与材料假设区间、
+D 盘路径与文件哈希均可被匿名读取，且可能被缓存或索引。用户若改回 private，本地 E 盘档案是完整来源。
+复现入口：`work/build_remote_manifest.py` → `work/build_sync_snapshot.py` →
+`.sync/20261017`（内含 `.git` 与 origin，只做快进 push，不强推）。
+
+## 并发写入提示
+
+2026-10-17 19:00 起，另一个会话正在同一 E 工作区写入 HFSS 相关文件
+（`work/hfss_al_sio2/smoke_api_test.py`、`run_aedt_task.ps1`、`v24_geometry_qa.*`、`logs/smoke19_*`）。
+其 HFSS 2018 冒烟测试实际报错：`Unable to detect installed products. Please make sure that
+config/admin.xml exists...`（`E:\ruanjian\AnsysEM19\AnsysEM19.0\Win64\ansysedt.exe`）。
+本侧档案与推送一律走带时间戳快照，不直接从工作区取文件，避免与并发会话抢写。
 
 ## 下一步
 
-1. 打通 GitHub：用户完成连接器 OAuth 登录 + 仓库转 private → 建 E 侧档案并首次推送小型文件 →
-   回读 commit SHA 写入 `memory/sync-state.json`。
-2. 完成 V24 四器件一致性检验，确定建模用的完整功能图形集。
-3. 按 V24 真实多边形挤出实体，建铝/全氧硅参数化模型，跑 500 MHz 与材料敏感性扫描。
+1. 运行 `v24_device_functional_sets.py` 落实"四合一是否为同一设计四份复制"，
+   确定建模用的完整功能图形集。
+2. 按 V24 真实多边形挤出实体，建铝/全氧硅参数化模型，跑 500 MHz 与材料敏感性扫描。
+3. 之后每轮记忆改动：重跑清单与快照脚本，在 `.sync/20261017` 快进 push 并回读核验。

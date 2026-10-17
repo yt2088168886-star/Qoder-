@@ -21,7 +21,7 @@
  ],
  "concurrency_note": "2026-10-17 19:00 起另一会话在同一 E 工作区写入 HFSS 试跑文件（smoke_api_test.py、run_aedt_task.ps1、v24_geometry_qa.*、logs/smoke19_*），属进行中的他方工作，已从本推送清单排除。",
  "file_count": 23,
- "total_bytes": 88533,
+ "total_bytes": 91344,
  "files": [
   {
    "path": "AGENTS.md",
@@ -35,13 +35,13 @@
   },
   {
    "path": "memory/ARTIFACTS.md",
-   "bytes": 3226,
-   "sha256": "893a6f46a0247f8db8c9f99096e93e9354663f8c75c22b5a98162b0d311fb709"
+   "bytes": 4320,
+   "sha256": "cc8e1cbcae16784c9fda7cf73d04729c032554abadf01eb5ff1ca0f5ade66f9b"
   },
   {
    "path": "memory/CURRENT_STATE.md",
-   "bytes": 3821,
-   "sha256": "447ea4b89838961be1426053e3d10582d5e9ca575f22b8026801b1191c27775a"
+   "bytes": 5160,
+   "sha256": "eb61e65966ab420c0dc2eff95da20476c88356c1231fb255708ef88baf6c8aab"
   },
   {
    "path": "memory/DECISIONS.md",
@@ -70,8 +70,8 @@
   },
   {
    "path": "memory/sync-state.json",
-   "bytes": 3071,
-   "sha256": "321e8f883f0148281f7bbb91b03e7581c71e39a68e92cddb67ba64b5b1a75134"
+   "bytes": 3449,
+   "sha256": "aeec00657022e78b4c4fcccb2411cbc36fe557e05f85d7320f84b8b50b9cde84"
   },
   {
    "path": "work/build_remote_manifest.py",

@@ -41,6 +41,21 @@
   （520 行，HFSS 2018；可复用 API 框架，绕组坐标为硬编码点列，几何不可复用；
   第 513 行保存路径含历史 C 盘绝对路径，复用前必须改到 E 盘）。
 
+## GitHub 远端档案（2026-10-17 已推送）
+
+- 仓库：`https://github.com/yt2088168886-star/Qoder-`，分支 `main`，当前 **public**（用户选择）。
+- 首次提交 `58f0e7a0a3f0d3a6b10d9d1bb3caafd2a8c8d9bf`（19:18），跟进提交
+  `8633ef8c97ceaa234b5c175038932627c244c2ff`（19:28）；匿名 API 回读 **25 个 blob**。
+- `memory/sync-state.json`：状态 `first_push_completed_readback_verified`，含通道、可见性、
+  LF 规范化差异说明与复现入口。
+- `memory/remote_push_manifest.json`：逐文件路径/字节/SHA256 与排除范围；本轮 23 个文件、88,533 B。
+  清单不含自身与 `sync-state.json`（自引用），二者随快照单独推送。
+- `work/build_remote_manifest.py`、`work/build_sync_snapshot.py`：清单与快照生成；
+  快照目录 `.sync/20261017/` 内含 `.git` 与 `origin`，后续只做快进 push；
+  快照脚本在目标目录含 `.git` 时不清空目录，避免丢历史。
+- 注意：个别本地 CRLF 文件在远端为 LF，远端 blob SHA256 等于"本地内容换行规范化后"的哈希，
+  逐字节核验前需先规范化。
+
 ## 交付状态
 
-`E:/Qoder_RF11_Sim/outputs/` 目前为空：没有新电磁结果、没有新交付文档。GitHub 首次推送尚未发生。
+`E:/Qoder_RF11_Sim/outputs/` 目前为空：没有新电磁结果、没有新交付文档。
